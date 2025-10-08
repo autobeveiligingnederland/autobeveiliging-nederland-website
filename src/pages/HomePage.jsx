@@ -66,7 +66,7 @@ export default function HomePage() {
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-4">
                 <Shield className="h-8 w-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-bold mb-2">SCM Gecertificeerd</h3>
+              <h3 className="text-xl font-bold mb-2">KIWA SCM/VBV en CCV Gecertificeerd</h3>
               <p className="text-gray-600">Erkende en gecertificeerde technici</p>
             </div>
             <div className="text-center">
