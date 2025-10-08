@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 
-export default function LaserTrackPage() {
+export default function LasertrackPage() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -89,7 +89,7 @@ export default function LaserTrackPage() {
                 <p className="text-gray-600">Inclusief professionele installatie door Autobeveiliging Nederland</p>
               </div>
               <div className="text-center mb-6">
-                <span className="text-5xl font-bold text-red-600">€449,-</span>
+                <span className="text-5xl font-bold text-red-600">€549,-</span>
                 <p className="text-sm text-gray-500 mt-2">Eenmalig, geen abonnementskosten</p>
               </div>
               <ul className="space-y-3 mb-8">
