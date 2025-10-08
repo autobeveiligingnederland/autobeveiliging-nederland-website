@@ -40,7 +40,7 @@ export default function ContactPage() {
                         06-50744574
                       </a>
                       <p className="text-sm text-gray-600 mt-1">Ma-Vr: 08:00 - 18:00</p>
-                      <p className="text-sm text-gray-600">Za: 09:00 - 15:00</p>
+                      <p className="text-sm text-gray-600">Za: 09:00 - 15:00 (Op afspraak)</p>
                     </div>
                   </div>
 
@@ -76,10 +76,10 @@ export default function ContactPage() {
                       <h3 className="font-bold mb-1">Openingstijden</h3>
                       <div className="text-gray-700 space-y-1">
                         <p>Maandag - Vrijdag: 08:00 - 18:00</p>
-                        <p>Zaterdag: 09:00 - 15:00</p>
+                        <p>Zaterdag: 09:00 - 15:00 (Op afspraak)</p>
                         <p>Zondag: Gesloten</p>
                       </div>
-                      <p className="text-sm text-gray-600 mt-2">* Afspraken buiten deze tijden mogelijk</p>
+                      <p className="text-sm text-gray-600 mt-2">* Afspraken buiten deze tijden mogelijk in overleg</p>
                     </div>
                   </div>
                 </div>
