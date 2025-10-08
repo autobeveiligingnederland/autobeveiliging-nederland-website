@@ -26,7 +26,7 @@ export default function Header() {
             <img src={logo} alt="Autobeveiliging Nederland" className="h-12 w-auto" />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-900">Autobeveiliging Nederland</span>
-              <span className="text-xs text-gray-600">Track & Trace Specialists</span>
+              <span className="text-xs text-gray-600">Elektronica Specialist</span>
             </div>
           </Link>
 
