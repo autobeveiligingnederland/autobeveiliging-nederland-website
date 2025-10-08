@@ -3,7 +3,7 @@ import { ArrowLeft, MapPin, Shield, Bell, Check, Phone } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
-import gpsTracking from '@/assets/gps-tracking.jpg'
+import gpsPlatform from '@/assets/gps-platform.webp'
 
 export default function TrackTracePage() {
   return (
@@ -27,9 +27,9 @@ export default function TrackTracePage() {
       {/* Hero Image */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
-          <img 
-            src={gpsTracking} 
-            alt="GPS Tracking Installation" 
+            <img 
+            src={gpsPlatform} 
+            alt="GPS Tracking Platform" 
             className="w-full max-w-4xl mx-auto rounded-xl shadow-lg"
           />
         </div>

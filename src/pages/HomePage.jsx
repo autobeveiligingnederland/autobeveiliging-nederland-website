@@ -3,8 +3,8 @@ import { Phone, MapPin, Shield, CheckCircle, Clock, Award } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
-import gpsTracking from '@/assets/gps-tracking.jpg'
-import carAlarm from '@/assets/car-alarm.jpg'
+import gpsPlatform from '@/assets/gps-platform.webp'
+import defaAlarm from '@/assets/defa-alarm.jpg'
 import windowTinting from '@/assets/window-tinting.jpg'
 
 export default function HomePage() {
@@ -101,7 +101,7 @@ export default function HomePage() {
             {/* Track & Trace */}
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="h-48 bg-gradient-to-br from-green-500 to-green-600 relative overflow-hidden">
-                <img src={gpsTracking} alt="GPS Tracking" className="w-full h-full object-cover opacity-80" />
+                <img src={gpsPlatform} alt="GPS Tracking Platform" className="w-full h-full object-cover opacity-80" />
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3">Track & Trace Systemen</h3>
@@ -138,7 +138,7 @@ export default function HomePage() {
             {/* SCM Alarmsystemen */}
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-600 relative overflow-hidden">
-                <img src={carAlarm} alt="SCM Alarm" className="w-full h-full object-cover opacity-80" />
+                <img src={defaAlarm} alt="DEFA Alarmsysteem" className="w-full h-full object-cover opacity-80" />
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3">SCM Alarmsystemen & TV01</h3>

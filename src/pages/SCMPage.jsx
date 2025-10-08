@@ -3,6 +3,7 @@ import { ArrowLeft, Shield, Award, Check, Phone } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
+import defaAlarm from '@/assets/defa-alarm.jpg'
 
 export default function SCMPage() {
   return (
@@ -16,6 +17,7 @@ export default function SCMPage() {
             Terug naar home
           </Link>
           <h1 className="text-5xl font-bold mb-4">SCM Alarmsystemen & TV01 Peilzender</h1>
+          <img src={defaAlarm} alt="DEFA Alarmsysteem" className="w-full max-w-xl mx-auto rounded-xl shadow-lg mt-8" />
           <p className="text-xl text-blue-100 max-w-3xl">
             Gecertificeerde voertuigbeveiligingssystemen en GPS tracking volgens Nederlandse SCM-normen. Installatie door Autobeveiliging Nederland.
           </p>
