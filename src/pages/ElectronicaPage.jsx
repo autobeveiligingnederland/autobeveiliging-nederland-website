@@ -17,7 +17,7 @@ export default function ElectronicaPage() {
             <ArrowLeft className="mr-2 h-4 w-4" />
             Terug naar home
           </Link>
-          <h1 className="text-5xl font-bold mb-4">Elektronica Inbouw & SCM Systemen</h1>
+          <h1 className="text-5xl font-bold mb-4">Elektronica inbouw & SCM systemen</h1>
           <p className="text-xl text-blue-100 max-w-3xl">
             Professionele installatie van automotive elektronica, beveiligingssystemen en SCM-gecertificeerde oplossingen voor optimale voertuigbeveiliging.
           </p>
@@ -38,7 +38,7 @@ export default function ElectronicaPage() {
       {/* Automotive Electronics */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">Automotive Elektronica</h2>
+          <h2 className="text-4xl font-bold text-center mb-12">Inbouw door heel Nederland</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-12">
             <div className="text-center">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-4">
@@ -71,73 +71,25 @@ export default function ElectronicaPage() {
         </div>
       </section>
 
-      {/* Quick Services */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Onze Diensten</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            <div className="bg-white rounded-lg p-6 shadow-md">
-              <h3 className="font-bold text-lg mb-2">Dashcams</h3>
-              <p className="text-sm text-gray-600 mb-2">Voor- en achtercamera's voor veiligheid</p>
-              <p className="text-xs text-gray-500">HD opname, parkeermodus, GPS tracking</p>
-              <p className="text-blue-600 font-bold mt-3">Vanaf €149,-</p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-md">
-              <h3 className="font-bold text-lg mb-2">Apple CarPlay & Android Auto</h3>
-              <p className="text-sm text-gray-600 mb-2">Smartphone integratie</p>
-              <p className="text-xs text-gray-500">Draadloos of bekabeld, alle merken</p>
-              <p className="text-blue-600 font-bold mt-3">Vanaf €399,-</p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-md">
-              <h3 className="font-bold text-lg mb-2">Achteruitrijcamera's</h3>
-              <p className="text-sm text-gray-600 mb-2">Veilig achteruit rijden</p>
-              <p className="text-xs text-gray-500">HD beeld, nachtzicht, parkeerlijnen</p>
-              <p className="text-blue-600 font-bold mt-3">Vanaf €249,-</p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-md">
-              <h3 className="font-bold text-lg mb-2">Cruise Control</h3>
-              <p className="text-sm text-gray-600 mb-2">Adaptieve snelheidsregeling</p>
-              <p className="text-xs text-gray-500">Retrofit installatie, alle merken</p>
-              <p className="text-blue-600 font-bold mt-3">Vanaf €599,-</p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-md">
-              <h3 className="font-bold text-lg mb-2">Parkeersensoren</h3>
-              <p className="text-sm text-gray-600 mb-2">Voor en achter sensoren</p>
-              <p className="text-xs text-gray-500">Originele look, audio/visueel alarm</p>
-              <p className="text-blue-600 font-bold mt-3">Vanaf €299,-</p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-md">
-              <h3 className="font-bold text-lg mb-2">Autoradio Installatie</h3>
-              <p className="text-sm text-gray-600 mb-2">Moderne multimedia systemen</p>
-              <p className="text-xs text-gray-500">Touchscreen, Bluetooth, navigatie</p>
-              <p className="text-blue-600 font-bold mt-3">Vanaf €199,-</p>
-            </div>
-          </div>
-          <p className="text-center text-sm text-gray-500 mt-8">
-            * Alle prijzen zijn inclusief installatie door Autobeveiliging Nederland
-          </p>
-        </div>
-      </section>
-
       {/* Detailed Services */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Onze Elektronica Diensten</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Onze diensten</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* Alarmsystemen */}
             <div className="bg-white rounded-xl shadow-lg p-6">
               <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
                 <Shield className="h-6 w-6 text-blue-600" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Alarmsystemen</h3>
-              <p className="text-gray-600 mb-4">SCM-gecertificeerde alarmsystemen alle klassen</p>
+              <h3 className="text-xl font-bold mb-3">SCM Alarmsystemen</h3>
+              <p className="text-gray-600 mb-4">gecertificeerde alarmsystemen alle klassen</p>
               <ul className="space-y-2 text-sm text-gray-700 mb-4">
-                <li>• Shock sensoren</li>
-                <li>• Bewegingsdetectie</li>
-                <li>• Sirene en LED waarschuwing</li>
-                <li>• Smartphone notificaties</li>
+                <li>• Klasse 1 t/m 5 SCM</li>
+                <li>• TV01 Peilzender SCM</li>
+                <li>• Bearlock SCM</li>
+                <li>• KE01 aanvullende maateregel</li>
               </ul>
-              <p className="text-blue-600 font-bold">Vanaf €599,-</p>
+              <p className="text-blue-600 font-bold">Vanaf €199,-</p>
             </div>
 
             {/* Startonderbreking */}
@@ -145,15 +97,15 @@ export default function ElectronicaPage() {
               <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
                 <Zap className="h-6 w-6 text-green-600" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Startonderbrekingssystemen</h3>
-              <p className="text-gray-600 mb-4">Voorkom ongeautoriseerd starten van uw voertuig</p>
+              <h3 className="text-xl font-bold mb-3">Omvormer / 2e accu systemen</h3>
+              <p className="text-gray-600 mb-4">Off-grid genieten van uw voertuig</p>
               <ul className="space-y-2 text-sm text-gray-700 mb-4">
-                <li>• Elektronische startonderbreking</li>
-                <li>• Brandstofpomp onderbreking</li>
-                <li>• Onzichtbare installatie</li>
-                <li>• Meerdere activeringmethoden</li>
+                <li>• Omvormer pakketen</li>
+                <li>• Laadstations</li>
+                <li>• Zonnepanelen voor voertuigen</li>
+                <li>• 2e accu systemen</li>
               </ul>
-              <p className="text-blue-600 font-bold">Vanaf €399,-</p>
+              <p className="text-blue-600 font-bold">Vanaf €199,-</p>
             </div>
 
             {/* Ritregistratie */}
@@ -161,7 +113,7 @@ export default function ElectronicaPage() {
               <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
                 <Award className="h-6 w-6 text-purple-600" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Ritregistratie Systemen</h3>
+              <h3 className="text-xl font-bold mb-3">Ritregistratie systemen</h3>
               <p className="text-gray-600 mb-4">Automatische registratie voor fiscale voordelen</p>
               <ul className="space-y-2 text-sm text-gray-700 mb-4">
                 <li>• Belastingdienst-proof logging</li>
@@ -169,7 +121,7 @@ export default function ElectronicaPage() {
                 <li>• Online dashboard</li>
                 <li>• Export naar Excel/PDF</li>
               </ul>
-              <p className="text-blue-600 font-bold">Vanaf €299,-</p>
+              <p className="text-blue-600 font-bold">Vanaf €99,-</p>
             </div>
 
             {/* Car Audio */}
@@ -183,7 +135,7 @@ export default function ElectronicaPage() {
                 <li>• Autoradio installatie</li>
                 <li>• Speaker upgrades</li>
                 <li>• Subwoofer systemen</li>
-                <li>• Dashcam installatie</li>
+                <li>• DSP / versterkers</li>
               </ul>
               <p className="text-blue-600 font-bold">Vanaf €199,-</p>
             </div>
@@ -198,8 +150,8 @@ export default function ElectronicaPage() {
               <ul className="space-y-2 text-sm text-gray-700 mb-4">
                 <li>• LED verlichting</li>
                 <li>• USB/12V aansluitingen</li>
-                <li>• Achteruitrijcamera's</li>
-                <li>• Parkeersensoren</li>
+                <li>• Target Blu eye / Lasertrack</li>
+                <li>• Blind spot detectie systemen</li>
               </ul>
               <p className="text-blue-600 font-bold">Op aanvraag</p>
             </div>
@@ -215,9 +167,9 @@ export default function ElectronicaPage() {
                 <li>• SCM certificaat uitgifte</li>
                 <li>• Garantie en onderhoud</li>
                 <li>• 24/7 technische support</li>
-                <li>• Jaarlijkse controles</li>
+                <li>• Jaarlijkse controles SCM</li>
               </ul>
-              <p className="text-blue-600 font-bold">Vanaf €99,-</p>
+              <p className="text-blue-600 font-bold">Vanaf €49,-</p>
             </div>
           </div>
         </div>
@@ -263,7 +215,7 @@ export default function ElectronicaPage() {
       {/* CTA */}
       <section className="py-16 bg-gradient-to-br from-blue-600 to-blue-700 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4">Interesse in Elektronica Inbouw?</h2>
+          <h2 className="text-4xl font-bold mb-4">Interesse in een inbouw?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Neem contact op voor advies over de juiste SCM klasse en systemen voor uw voertuig
           </p>
@@ -275,7 +227,7 @@ export default function ElectronicaPage() {
               </Button>
             </a>
             <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+              <Button size="lg" variant="outline" className="border-blue text-blue hover:bg-white/10">
                 Bel Direct
               </Button>
             </a>
