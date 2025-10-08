@@ -25,21 +25,10 @@ export default function RamenTintenPage() {
         </div>
       </section>
 
-      {/* Hero Image */}
-      <section className="py-12 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <img 
-            src={windowTinting} 
-            alt="Window Tinting Installation" 
-            className="w-full max-w-4xl mx-auto rounded-xl shadow-lg"
-          />
-        </div>
-      </section>
-
       {/* Before/After */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-4">Het Verschil Zien</h2>
+          <h2 className="text-4xl font-bold text-center mb-4">Before & After</h2>
           <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
             Zie het dramatische verschil tussen getinte en ongetinte ramen. Onze professionele raamfolie biedt privacy, UV-bescherming en een luxe uitstraling.
           </p>
@@ -185,31 +174,31 @@ export default function RamenTintenPage() {
                 <tbody className="divide-y divide-gray-200">
                   <tr>
                     <td className="px-6 py-4 font-semibold">Achterportieren</td>
+                    <td className="px-6 py-4">€99,-</td>
+                    <td className="px-6 py-4">€149,-</td>
                     <td className="px-6 py-4">€199,-</td>
-                    <td className="px-6 py-4">€299,-</td>
-                    <td className="px-6 py-4">€449,-</td>
                   </tr>
                   <tr>
                     <td className="px-6 py-4 font-semibold">Achterruit</td>
-                    <td className="px-6 py-4">€149,-</td>
+                    <td className="px-6 py-4">€119,-</td>
+                    <td className="px-6 py-4">€179,-</td>
                     <td className="px-6 py-4">€229,-</td>
-                    <td className="px-6 py-4">€349,-</td>
                   </tr>
                   <tr>
                     <td className="px-6 py-4 font-semibold">Voorportieren</td>
+                    <td className="px-6 py-4">€99,-</td>
+                    <td className="px-6 py-4">€149,-</td>
                     <td className="px-6 py-4">€199,-</td>
-                    <td className="px-6 py-4">€299,-</td>
-                    <td className="px-6 py-4">€449,-</td>
                   </tr>
                   <tr>
                     <td className="px-6 py-4 font-semibold">Complete auto</td>
+                    <td className="px-6 py-4">€399,-</td>
                     <td className="px-6 py-4">€499,-</td>
-                    <td className="px-6 py-4">€749,-</td>
-                    <td className="px-6 py-4">€1.199,-</td>
+                    <td className="px-6 py-4">€599,-</td>
                   </tr>
                   <tr className="bg-purple-50">
                     <td className="px-6 py-4 font-semibold">SUV/Van toeslag</td>
-                    <td className="px-6 py-4" colSpan="3">+€100,-</td>
+                    <td className="px-6 py-4" colSpan="3">+€50,-</td>
                   </tr>
                 </tbody>
               </table>
@@ -237,17 +226,16 @@ export default function RamenTintenPage() {
               </div>
               <div className="flex justify-between items-center border-b pb-3">
                 <span className="font-semibold">Achterportieren:</span>
-                <span className="text-gray-700">Vrije keuze (5% - 70%)</span>
+                <span className="text-gray-700">Vrije keuze (0% - 70%)</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="font-semibold">Achterruit:</span>
-                <span className="text-gray-700">Vrije keuze (5% - 70%)</span>
+                <span className="text-gray-700">Vrije keuze (0% - 70%)</span>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       {/* Vehicle Types */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
