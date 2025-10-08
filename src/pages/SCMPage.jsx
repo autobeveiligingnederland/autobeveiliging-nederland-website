@@ -17,7 +17,6 @@ export default function SCMPage() {
             Terug naar home
           </Link>
           <h1 className="text-5xl font-bold mb-4">SCM Alarmsystemen & TV01 Peilzender</h1>
-          <img src={defaAlarm} alt="DEFA Alarmsysteem" className="w-full max-w-xl mx-auto rounded-xl shadow-lg mt-8" />
           <p className="text-xl text-blue-100 max-w-3xl">
             Gecertificeerde voertuigbeveiligingssystemen en GPS tracking volgens Nederlandse SCM-normen. Installatie door Autobeveiliging Nederland.
           </p>
@@ -38,7 +37,7 @@ export default function SCMPage() {
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-4">
                 <Shield className="h-8 w-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-bold mb-3">SCM Certified</h3>
+              <h3 className="text-xl font-bold mb-3">SCM gecertificeerde monteurs</h3>
               <p className="text-gray-600">Officieel erkend door verzekeraars</p>
             </div>
             <div className="text-center">
@@ -64,20 +63,20 @@ export default function SCMPage() {
           <h2 className="text-4xl font-bold text-center mb-12">SCM Klassen & Prijzen</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="bg-white rounded-xl shadow-lg p-8">
-              <h3 className="text-2xl font-bold mb-2">SCM Klasse 1-2</h3>
+              <h3 className="text-2xl font-bold mb-2">SCM Klasse 1</h3>
               <p className="text-gray-600 mb-6">Basis beveiliging voor standaard voertuigen</p>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-blue-600">€599,-</span>
+                <span className="text-4xl font-bold text-blue-600">€399,-</span>
                 <p className="text-sm text-gray-500 mt-1">Incl. installatie & certificaat</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
-                  <span>Alarm met sirene</span>
+                  <span>Startonderbreker</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
-                  <span>Shock sensoren</span>
+                  <span>Mogelijk met aparte autorisatie</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
@@ -101,20 +100,16 @@ export default function SCMPage() {
               <div className="absolute -mt-12 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
                 Populair
               </div>
-              <h3 className="text-2xl font-bold mb-2">SCM Klasse 3-4</h3>
-              <p className="text-gray-600 mb-6">Uitgebreide beveiliging met GPS tracking</p>
+              <h3 className="text-2xl font-bold mb-2">SCM Klasse 3</h3>
+              <p className="text-gray-600 mb-6">Alarmsysteem met Hellingshoekdetectie</p>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-blue-600">€999,-</span>
+                <span className="text-4xl font-bold text-blue-600">€899,-</span>
                 <p className="text-sm text-gray-500 mt-1">Incl. installatie & certificaat</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
-                  <span>Alles van Klasse 1-2 +</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
-                  <span>TV01 GPS tracker</span>
+                  <span>Akoestisch alarmsignaal</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
@@ -122,7 +117,11 @@ export default function SCMPage() {
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
-                  <span>24/7 monitoring optie</span>
+                  <span>Hellingshoek detectie</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>Interieurbewaking</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
@@ -135,28 +134,28 @@ export default function SCMPage() {
             </div>
 
             <div className="bg-white rounded-xl shadow-lg p-8">
-              <h3 className="text-2xl font-bold mb-2">SCM Klasse 5</h3>
+              <h3 className="text-2xl font-bold mb-2">SCM Klasse 4/5</h3>
               <p className="text-gray-600 mb-6">Maximale beveiliging voor exclusieve voertuigen</p>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-blue-600">€1.499,-</span>
+                <span className="text-4xl font-bold text-blue-600">€899,-</span>
                 <p className="text-sm text-gray-500 mt-1">Incl. installatie & certificaat</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
-                  <span>Alles van Klasse 3-4 +</span>
+                  <span>24/7 live volgen van het voertuig</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
-                  <span>Meerdere beveiligingslagen</span>
+                  <span>24/7 support vanuit de PAC meldkamer</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
-                  <span>Versterkte tracking</span>
+                  <span>GSM jamming detectie</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
-                  <span>Premium support</span>
+                  <span>Extra startblokkering te bedienen via app</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
@@ -172,6 +171,7 @@ export default function SCMPage() {
             * Alle installaties worden uitgevoerd door SCM-gecertificeerde technici van Autobeveiliging Nederland
           </p>
         </div>
+<img src={defaAlarm} alt="DEFA Alarmsysteem" className="w-full max-w-xl mx-auto rounded-xl shadow-lg mt-8" />
       </section>
 
       <section className="py-16 bg-gradient-to-br from-blue-600 to-blue-700 text-white">
