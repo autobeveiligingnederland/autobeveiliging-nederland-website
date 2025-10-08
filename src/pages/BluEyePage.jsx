@@ -15,7 +15,7 @@ export default function BluEyePage() {
             <ArrowLeft className="mr-2 h-4 w-4" />
             Terug naar home
           </Link>
-          <h1 className="text-5xl font-bold mb-4">Blu Eye - Emergency Vehicle Detection</h1>
+          <h1 className="text-5xl font-bold mb-4">Target Blu Eye - Emergency Vehicle Detection</h1>
           <p className="text-xl text-orange-100 max-w-3xl">
             Detecteert hulpdiensten voordat ze zichtbaar zijn. TETRA technologie voor maximale veiligheid op de weg.
           </p>
@@ -27,7 +27,7 @@ export default function BluEyePage() {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <Eye className="h-24 w-24 text-orange-600 mx-auto mb-6" />
-              <h2 className="text-4xl font-bold mb-6">Wat is Blu Eye?</h2>
+              <h2 className="text-4xl font-bold mb-6">Wat is Target Blu Eye?</h2>
               <p className="text-xl text-gray-600">
                 Blu Eye is een innovatief waarschuwingssysteem dat TETRA-signalen van hulpdiensten detecteert voordat u ze kunt zien of horen. Dit geeft u cruciale extra seconden om veilig plaats te maken.
               </p>
@@ -85,7 +85,7 @@ export default function BluEyePage() {
 
             {/* Video Section */}
             <div className="mb-12">
-              <h3 className="text-3xl font-bold text-center mb-4">Blu Eye 2 in Actie</h3>
+              <h3 className="text-3xl font-bold text-center mb-4">Target Blu Eye 2 in Actie</h3>
               <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
                 Bekijk hoe de Blu Eye 2 eenvoudig in de binnenspiegel wordt gemonteerd en hoe het systeem werkt
               </p>
@@ -129,11 +129,11 @@ export default function BluEyePage() {
 
             <div className="bg-white rounded-xl shadow-lg p-8 border-2 border-orange-600">
               <div className="text-center mb-6">
-                <h3 className="text-3xl font-bold mb-2">Blu Eye Systeem</h3>
+                <h3 className="text-3xl font-bold mb-2">Target Blu Eye 2 Spiegelmontage</h3>
                 <p className="text-gray-600">Inclusief professionele installatie door Autobeveiliging Nederland</p>
               </div>
               <div className="text-center mb-6">
-                <span className="text-5xl font-bold text-orange-600">€349,-</span>
+                <span className="text-5xl font-bold text-orange-600">€1449,-</span>
                 <p className="text-sm text-gray-500 mt-2">Eenmalig, geen abonnementskosten</p>
               </div>
               <ul className="space-y-3 mb-8">
