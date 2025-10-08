@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Autobeveiliging Nederland</h3>
             <p className="text-gray-400 mb-4">
-              Track & Trace specialists en elektronica inbouw op locatie in heel Nederland
+              Elektronica specialist inbouw op locatie in heel Nederland
             </p>
             <p className="text-gray-400">
               Gevestigd in Uden, werkzaam in heel Nederland
@@ -94,7 +94,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>© 2024 Autobeveiliging Nederland. Alle rechten voorbehouden.</p>
+          <p>© 2025 Autobeveiliging Nederland. Alle rechten voorbehouden.</p>
         </div>
       </div>
     </footer>
