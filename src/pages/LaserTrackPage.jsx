@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 
-export default function LasertrackPage() {
+export default function LaserTrackPage() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
