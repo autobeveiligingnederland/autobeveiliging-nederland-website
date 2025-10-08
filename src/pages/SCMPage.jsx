@@ -90,7 +90,7 @@ export default function SCMPage() {
                   <span>Installatie door Autobeveiliging Nederland</span>
                 </li>
               </ul>
-              <a href="tel:0650744574">
+              <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="w-full">Vraag Offerte Aan</Button>
               </a>
             </div>
@@ -127,7 +127,7 @@ export default function SCMPage() {
                   <span>Installatie door Autobeveiliging Nederland</span>
                 </li>
               </ul>
-              <a href="tel:0650744574">
+              <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
                 <Button className="w-full bg-blue-600 hover:bg-blue-700">Vraag Offerte Aan</Button>
               </a>
             </div>
@@ -161,7 +161,7 @@ export default function SCMPage() {
                   <span>Installatie door Autobeveiliging Nederland</span>
                 </li>
               </ul>
-              <a href="tel:0650744574">
+              <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="w-full">Vraag Offerte Aan</Button>
               </a>
             </div>
@@ -178,7 +178,7 @@ export default function SCMPage() {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Neem contact op voor advies over de juiste SCM klasse voor uw voertuig
           </p>
-          <a href="tel:0650744574">
+          <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
               <Phone className="mr-2 h-5 w-5" />
               Vraag Advies Aan

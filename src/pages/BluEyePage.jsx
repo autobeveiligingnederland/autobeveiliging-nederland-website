@@ -162,7 +162,7 @@ export default function BluEyePage() {
                   <span>1 jaar garantie</span>
                 </li>
               </ul>
-              <a href="tel:0650744574">
+              <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="w-full bg-orange-600 hover:bg-orange-700">
                   <Phone className="mr-2 h-5 w-5" />
                   Bestel Nu
@@ -179,7 +179,7 @@ export default function BluEyePage() {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Neem contact op voor meer informatie of om direct een afspraak te maken voor installatie
           </p>
-          <a href="tel:0650744574">
+          <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-white text-orange-600 hover:bg-gray-100">
               <Phone className="mr-2 h-5 w-5" />
               Bel Direct

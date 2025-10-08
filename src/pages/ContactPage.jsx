@@ -36,7 +36,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-bold mb-1">Telefoon</h3>
-                      <a href="tel:0650744574" className="text-blue-600 hover:underline text-lg">
+                      <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-lg">
                         06-50744574
                       </a>
                       <p className="text-sm text-gray-600 mt-1">Ma-Vr: 08:00 - 18:00</p>
@@ -202,7 +202,7 @@ export default function ContactPage() {
             <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl p-8 text-white text-center">
               <h2 className="text-3xl font-bold mb-4">Liever direct contact?</h2>
               <p className="text-xl mb-6">Bel ons voor direct advies of een spoedafspraak</p>
-              <a href="tel:0650744574">
+              <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
                   <Phone className="mr-2 h-5 w-5" />
                   Bel Nu: 06-50744574

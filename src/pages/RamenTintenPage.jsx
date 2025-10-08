@@ -348,13 +348,13 @@ export default function RamenTintenPage() {
             Neem contact op voor advies over de beste raamfolie voor uw voertuig en situatie
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:0650744574">
+            <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
                 <Phone className="mr-2 h-5 w-5" />
                 Vraag Offerte Aan
               </Button>
             </a>
-            <a href="tel:0650744574">
+            <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
                 Bel Direct
               </Button>

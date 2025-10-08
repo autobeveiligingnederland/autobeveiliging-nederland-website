@@ -106,7 +106,7 @@ export default function SchadeherstelPage() {
                 Neem direct contact met ons op. Wij staan klaar om u te helpen met een snelle en professionele oplossing.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:0650744574">
+                <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                     <Phone className="mr-2 h-5 w-5" />
                     Bel Direct: 06-50744574
