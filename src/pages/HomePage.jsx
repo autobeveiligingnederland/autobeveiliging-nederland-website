@@ -28,7 +28,7 @@ export default function HomePage() {
               Mobiele inbouw op Locatie
             </p>
             <p className="text-lg mb-8 text-gray-300 max-w-3xl mx-auto">
-              SCM/KIWA voertuigbeveiliging, GPS tracking, ramen tinten en elektronica inbouw. 
+              KIWA SCM/VBV en CCV voertuigbeveiliging, GPS tracking, ramen tinten en elektronica inbouw. 
               Wij komen naar u toe voor SCM-gecertificeerde installaties in heel Nederland.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
