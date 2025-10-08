@@ -71,8 +71,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-blue-400" />
-                <a href="mailto:info@autobeveiligningnederland.nl" className="text-gray-400 hover:text-white transition-colors">
-                  info@autobeveiligningnederland.nl
+                <a href="mailto:info@autobeveiligingnederland.nl" className="text-gray-400 hover:text-white transition-colors">
+                  info@autobeveiligingnederland.nl
                 </a>
               </li>
               <li className="flex items-center space-x-2">

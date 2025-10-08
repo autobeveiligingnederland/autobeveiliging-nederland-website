@@ -25,7 +25,7 @@ export default function HomePage() {
               Autobeveiliging Nederland
             </h1>
             <p className="text-xl md:text-2xl mb-4 text-blue-300">
-              Track & Trace Specialists - Mobiele Inbouw op Locatie
+              Track & Trace Specialisten - Mobiele Inbouw op Locatie
             </p>
             <p className="text-lg mb-8 text-gray-300 max-w-3xl mx-auto">
               Professionele voertuigbeveiliging, GPS tracking, ramen tinten en elektronica inbouw. 
