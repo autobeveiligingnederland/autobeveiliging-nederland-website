@@ -17,7 +17,7 @@ export default function TrackTracePage() {
             <ArrowLeft className="mr-2 h-4 w-4" />
             Terug naar home
           </Link>
-          <h1 className="text-5xl font-bold mb-4">Track & Trace Systemen</h1>
+          <h1 className="text-5xl font-bold mb-4">GPS Track & Trace Systemen</h1>
           <p className="text-xl text-green-100 max-w-3xl">
             Geavanceerde GPS tracking en voertuigvolgsystemen voor optimale beveiliging en real-time monitoring van uw wagenpark.
           </p>
@@ -117,8 +117,8 @@ export default function TrackTracePage() {
               <h3 className="text-2xl font-bold mb-2">Basis Tracking</h3>
               <p className="text-gray-600 mb-6">Voor particulieren en kleine bedrijven</p>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-green-600">€299,-</span>
-                <p className="text-sm text-gray-500 mt-1">Eenmalig + €9,95/maand</p>
+                <span className="text-4xl font-bold text-green-600">€129,-</span>
+                <p className="text-sm text-gray-500 mt-1">Eenmalig + €7,95/maand</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
@@ -153,8 +153,8 @@ export default function TrackTracePage() {
               <h3 className="text-2xl font-bold mb-2">Professional Tracking</h3>
               <p className="text-gray-600 mb-6">Voor bedrijven met wagenparken</p>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-green-600">€499,-</span>
-                <p className="text-sm text-gray-500 mt-1">Eenmalig + €19,95/maand</p>
+                <span className="text-4xl font-bold text-green-600">€299,-</span>
+                <p className="text-sm text-gray-500 mt-1">Eenmalig + €13,95/maand</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
@@ -190,8 +190,8 @@ export default function TrackTracePage() {
               <h3 className="text-2xl font-bold mb-2">Enterprise Tracking</h3>
               <p className="text-gray-600 mb-6">Voor grote wagenparken en speciale eisen</p>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-green-600">€799,-</span>
-                <p className="text-sm text-gray-500 mt-1">Eenmalig + €29,95/maand</p>
+                <span className="text-4xl font-bold text-green-600">€399,-</span>
+                <p className="text-sm text-gray-500 mt-1">Eenmalig + €19,95/maand</p>
               </div>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
