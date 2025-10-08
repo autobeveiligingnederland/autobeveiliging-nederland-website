@@ -25,7 +25,7 @@ export default function HomePage() {
               Autobeveiliging Nederland
             </h1>
             <p className="text-xl md:text-2xl mb-4 text-blue-300">
-              Mobiele Inbouw op Locatie
+              Mobiele inbouw op Locatie
             </p>
             <p className="text-lg mb-8 text-gray-300 max-w-3xl mx-auto">
               SCM/KIWA voertuigbeveiliging, GPS tracking, ramen tinten en elektronica inbouw. 
