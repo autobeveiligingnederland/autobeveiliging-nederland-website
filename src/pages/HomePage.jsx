@@ -316,6 +316,100 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Werkwijze Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4">Hoe Gaan Wij Te Werk?</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Van eerste contact tot installatie - zo werkt Autobeveiliging Nederland
+            </p>
+          </div>
+
+          <div className="max-w-5xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-8 relative">
+              {/* Step 1 */}
+              <div className="text-center relative">
+                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 shadow-lg">
+                  1
+                </div>
+                <h3 className="text-lg font-bold mb-2">Contact Opnemen</h3>
+                <p className="text-sm text-gray-600">
+                  U neemt contact op met wat u wilt qua inbouw of wat u nodig heeft voor de verzekering (bijvoorbeeld peilzender of SCM klasse 3)
+                </p>
+              </div>
+
+              {/* Arrow */}
+              <div className="hidden md:flex items-center justify-center">
+                <div className="text-blue-600 text-3xl">→</div>
+              </div>
+
+              {/* Step 2 */}
+              <div className="text-center relative">
+                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 shadow-lg">
+                  2
+                </div>
+                <h3 className="text-lg font-bold mb-2">Offerte</h3>
+                <p className="text-sm text-gray-600">
+                  U ontvangt een vrijblijvende offerte op maat, afgestemd op uw wensen en voertuig
+                </p>
+              </div>
+
+              {/* Arrow */}
+              <div className="hidden md:flex items-center justify-center">
+                <div className="text-blue-600 text-3xl">→</div>
+              </div>
+
+              {/* Step 3 */}
+              <div className="text-center relative">
+                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 shadow-lg">
+                  3
+                </div>
+                <h3 className="text-lg font-bold mb-2">Inbouw op Locatie</h3>
+                <p className="text-sm text-gray-600">
+                  Wij komen naar uw locatie voor de installatie (mits wij binnen kunnen staan voor optimale werkomstandigheden)
+                </p>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 max-w-3xl mx-auto">
+              {/* Step 4 */}
+              <div className="text-center relative">
+                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 shadow-lg">
+                  4
+                </div>
+                <h3 className="text-lg font-bold mb-2">Afhandeling & Uitleg</h3>
+                <p className="text-sm text-gray-600">
+                  Na installatie krijgt u een uitgebreide uitleg over de werking van de producten en eventuele certificaten
+                </p>
+              </div>
+
+              {/* Step 5 */}
+              <div className="text-center relative">
+                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 shadow-lg">
+                  5
+                </div>
+                <h3 className="text-lg font-bold mb-2">Facturatie</h3>
+                <p className="text-sm text-gray-600">
+                  U ontvangt een duidelijke factuur met alle geleverde diensten en producten
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-12 text-center">
+              <div className="bg-blue-50 rounded-xl p-6 inline-block">
+                <p className="text-lg font-semibold text-blue-900 mb-2">
+                  🚗 Mobiele Service in Heel Nederland
+                </p>
+                <p className="text-gray-700">
+                  Wij komen naar u toe voor een professionele installatie op uw locatie
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-700 text-white">
         <div className="container mx-auto px-4 text-center">

@@ -139,6 +139,20 @@ export default function ContactPage() {
                   </div>
 
                   <div>
+                    <label htmlFor="vehicle" className="block text-sm font-medium text-gray-700 mb-2">
+                      Kenteken of Chassisnummer
+                    </label>
+                    <input
+                      type="text"
+                      id="vehicle"
+                      name="vehicle"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                      placeholder="XX-XX-XX of chassisnummer"
+                    />
+                    <p className="text-xs text-gray-500 mt-1">Optioneel, helpt ons u beter te adviseren</p>
+                  </div>
+
+                  <div>
                     <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">
                       Interesse in
                     </label>

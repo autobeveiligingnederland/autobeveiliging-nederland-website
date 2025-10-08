@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { Phone, Menu, X } from 'lucide-react'
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
+import logo from '@/assets/logo.png'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -21,10 +22,11 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-3">
+            <img src={logo} alt="Autobeveiliging Nederland" className="h-12 w-auto" />
             <div className="flex flex-col">
-              <span className="text-2xl font-bold text-gray-900">Autobeveiliging Nederland</span>
-              <span className="text-sm text-gray-600">Track & Trace Specialists</span>
+              <span className="text-xl font-bold text-gray-900">Autobeveiliging Nederland</span>
+              <span className="text-xs text-gray-600">Track & Trace Specialists</span>
             </div>
           </Link>
 

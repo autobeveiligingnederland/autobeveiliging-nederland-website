@@ -83,6 +83,50 @@ export default function BluEyePage() {
               </ul>
             </div>
 
+            {/* Video Section */}
+            <div className="mb-12">
+              <h3 className="text-3xl font-bold text-center mb-4">Blu Eye 2 in Actie</h3>
+              <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+                Bekijk hoe de Blu Eye 2 eenvoudig in de binnenspiegel wordt gemonteerd en hoe het systeem werkt
+              </p>
+              <div className="bg-gray-100 rounded-xl overflow-hidden shadow-lg">
+                <div className="aspect-video bg-gradient-to-br from-orange-100 to-orange-200 flex items-center justify-center">
+                  {/* Placeholder voor YouTube/Vimeo embed */}
+                  <div className="text-center p-8">
+                    <Eye className="h-24 w-24 text-orange-600 mx-auto mb-4" />
+                    <p className="text-xl font-semibold text-gray-700 mb-2">Video komt binnenkort</p>
+                    <p className="text-gray-600">
+                      Hier komt een demonstratievideo van de Blu Eye 2 installatie in de binnenspiegel
+                    </p>
+                    <div className="mt-6 text-sm text-gray-500">
+                      <p>Om uw eigen video toe te voegen, vervang deze sectie met:</p>
+                      <code className="block mt-2 bg-white p-2 rounded text-xs">
+                        &lt;iframe src="YOUR_YOUTUBE_OR_VIMEO_URL" ...&gt;&lt;/iframe&gt;
+                      </code>
+                    </div>
+                  </div>
+                  {/* 
+                  Vervang bovenstaande div met onderstaande code wanneer u een video heeft:
+                  
+                  <iframe 
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="Blu Eye 2 Demonstratie"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                  */}
+                </div>
+              </div>
+              <div className="mt-6 bg-blue-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>💡 Tip:</strong> In de video ziet u hoe de Blu Eye 2 discreet in uw binnenspiegel wordt geïntegreerd 
+                  en hoe het systeem u waarschuwt wanneer hulpdiensten in de buurt zijn.
+                </p>
+              </div>
+            </div>
+
             <div className="bg-white rounded-xl shadow-lg p-8 border-2 border-orange-600">
               <div className="text-center mb-6">
                 <h3 className="text-3xl font-bold mb-2">Blu Eye Systeem</h3>
