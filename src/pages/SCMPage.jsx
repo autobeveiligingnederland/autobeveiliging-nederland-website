@@ -8,15 +8,7 @@ import defaAlarm from '@/assets/defa-alarm.jpg'
 export default function SCMPage() {
   return (
     <div className="min-h-screen bg-white">
-      <Header /><!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17636832857"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-17636832857');
-</script>
+      <Header />
       <section className="bg-gradient-to-br from-blue-600 to-blue-700 text-white py-16">
         <div className="container mx-auto px-4">
           <Link to="/" className="inline-flex items-center text-white/80 hover:text-white mb-6">
