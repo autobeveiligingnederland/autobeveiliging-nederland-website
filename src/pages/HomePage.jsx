@@ -436,7 +436,7 @@ export default function HomePage() {
               </Button>
             </a>
             <Link to="/contact">
-              <Button size="lg" variant="outline" className="border-white text-blue hover:bg-gray-100">
+              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
                 Contact Formulier
               </Button>
             </Link>
