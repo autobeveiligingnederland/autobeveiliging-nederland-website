@@ -8,7 +8,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      
+
       <section className="bg-gradient-to-br from-blue-600 to-blue-700 text-white py-16">
         <div className="container mx-auto px-4">
           <Link to="/" className="inline-flex items-center text-white/80 hover:text-white mb-6">
@@ -96,11 +96,7 @@ export default function ContactPage() {
               {/* Contact Form */}
               <div>
                 <h2 className="text-3xl font-bold mb-8">Stuur ons een bericht</h2>
-                 <form action="https://formsubmit.co/info@autobeveiligingnederland.nl" method="POST" className="space-y-6">
-                                     {/* FormSubmit Configuration */}
-                  <input type="hidden" name="_subject" value="Nieuw contactformulier bericht - Autobeveiliging Nederland" />
-                  <input type="hidden" name="_captcha" value="false" />
-                  <input type="hidden" name="_template" value="table" />
+                <form className="space-y-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                       Naam *
