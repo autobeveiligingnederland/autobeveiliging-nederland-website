@@ -7,8 +7,15 @@ import Footer from '@/components/layout/Footer'
 export default function SchadeherstelPage() {
   return (
     <div className="min-h-screen bg-white">
-      <Header />
+      <Header /><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17636832857"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'AW-17636832857');
+</script>
       <section className="bg-gradient-to-br from-gray-800 to-gray-900 text-white py-16">
         <div className="container mx-auto px-4">
           <Link to="/" className="inline-flex items-center text-white/80 hover:text-white mb-6">
