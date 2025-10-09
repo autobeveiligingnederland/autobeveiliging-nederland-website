@@ -14,7 +14,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-white">
-  <Header />
+  <Header /><meta name="google-site-verification" content="QgJ6_xU1guXtLQjMjIovr57CJVa4wRvbkVeVjwOjnY8" />
   {/* Hero Section */}
   <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-24 overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1920')] bg-cover bg-center opacity-10"></div>
