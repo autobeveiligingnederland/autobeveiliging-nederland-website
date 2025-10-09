@@ -8,15 +8,7 @@ import gpsPlatform from '@/assets/gps-platform.webp'
 export default function TrackTracePage() {
   return (
     <div className="min-h-screen bg-white">
-      <Header /><!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17636832857"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-17636832857');
-</script>
+      <Header />
       {/* Hero */}
       <section className="bg-gradient-to-br from-green-600 to-green-700 text-white py-16">
         <div className="container mx-auto px-4">
