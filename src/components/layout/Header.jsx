@@ -8,6 +8,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const navItems = [
+    { name: 'Over ons', path: '/over-ons' },
     { name: 'Track & Trace', path: '/track-trace' },
     { name: 'Elektronica Inbouw', path: '/elektronica-inbouw' },
     { name: 'Ramen Tinten', path: '/ramen-tinten' },

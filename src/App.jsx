@@ -9,6 +9,7 @@ import LaserTrackPage from './pages/LaserTrackPage'
 import SchadeherstelPage from './pages/SchadeherstelPage'
 import ContactPage from './pages/ContactPage'
 import SCMPage from './pages/SCMPage'
+import AboutUsPage from './pages/AboutUsPage'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/schadeherstel" element={<SchadeherstelPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/scm-alarmsystemen" element={<SCMPage />} />
+        <Route path="/over-ons" element={<AboutUsPage />} />
       </Routes>
     </Router>
   )
