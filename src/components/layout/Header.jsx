@@ -1,11 +1,30 @@
 import { Link } from 'react-router-dom'
 import { Phone, Menu, X } from 'lucide-react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 import logo from '@/assets/logo.png'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  // ✅ Google Ads gtag.js toevoegen
+  useEffect(() => {
+    // Voeg het gtag.js script toe
+    const script = document.createElement("script")
+    script.src = "https://www.googletagmanager.com/gtag/js?id=AW-17636832857"
+    script.async = true
+    document.head.appendChild(script)
+
+    // Voeg de gtag configuratie toe
+    const inlineScript = document.createElement("script")
+    inlineScript.innerHTML = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17636832857');
+    `
+    document.head.appendChild(inlineScript)
+  }, [])
 
   const navItems = [
     { name: 'SCM Alarmsystemen', path: '/scm-alarmsystemen' },
@@ -54,7 +73,7 @@ export default function Header() {
             </a>
           </div>
 
-          {/* Mobiel Menu Button*/}
+          {/* Mobiel Menu Button */}
           <button
             className="lg:hidden"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
