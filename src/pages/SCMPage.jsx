@@ -146,7 +146,7 @@ export default function SCMPage() {
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
-                  <span>24/7 support vanuit de PAC meldkamer</span>
+                  <span>24/7 support PAC meldkamer</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
@@ -154,7 +154,7 @@ export default function SCMPage() {
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
-                  <span>Extra startblokkering te bedienen via app</span>
+                  <span>Extra startblokkering via app</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
