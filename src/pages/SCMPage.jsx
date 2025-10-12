@@ -91,7 +91,7 @@ export default function SCMPage() {
                 </li>
               </ul>
               <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" className="w-full">Vraag Offerte Aan</Button>
+                <Button variant="outline" className="w-full">Vraag offerte aan</Button>
               </a>
             </div>
 
@@ -128,7 +128,7 @@ export default function SCMPage() {
                 </li>
               </ul>
               <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
-                <Button className="w-full bg-blue-600 hover:bg-blue-700">Vraag Offerte Aan</Button>
+                <Button className="w-full bg-blue-600 hover:bg-blue-700">Vraag offerte aan</Button>
               </a>
             </div>
 
@@ -162,7 +162,7 @@ export default function SCMPage() {
                 </li>
               </ul>
               <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" className="w-full">Vraag Offerte Aan</Button>
+                <Button variant="outline" className="w-full">Vraag offerte aan</Button>
               </a>
             </div>
           </div>
