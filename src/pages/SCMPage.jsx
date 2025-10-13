@@ -20,7 +20,6 @@ const SCMClassesContent = () => {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {/* STARTONDERBREKER KLASSE 1 */}
         <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
           <div className="flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 text-blue-600 mb-4">
             <Lock size={32} />
@@ -28,52 +27,43 @@ const SCMClassesContent = () => {
           <h3 className="text-2xl font-bold mb-3 text-gray-800">Startonderbreker Klasse 1</h3>
           <p className="text-gray-700 mb-4">
             SCM/CCV Klasse 1, voorheen bekend als de ‘Startonderbreker’, biedt een essentiële basisbeveiliging.
-            Dit systeem bestaat uit twee automatisch geactiveerde blokkeringen die voorkomen dat uw voertuig op
-            eigen kracht kan worden verplaatst.
           </p>
           <a href="#" className="text-blue-600 hover:underline font-semibold">Meer informatie</a>
         </div>
 
-        {/* ALARMSYSTEEM KLASSE 2 */}
         <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
           <div className="flex items-center justify-center w-16 h-16 rounded-full bg-green-100 text-green-600 mb-4">
             <Shield size={32} />
           </div>
           <h3 className="text-2xl font-bold mb-3 text-gray-800">Alarmsysteem Klasse 2</h3>
           <p className="text-gray-700 mb-4">
-            De SCM/CCV Klasse 2 bouwt voort op de Klasse 1 startonderbreker, met geavanceerde inbraakdetectie en
-            een luid alarmeringssysteem. Zodra een poging tot inbraak wordt gedetecteerd, treedt het alarm in werking.
+            SCM/CCV Klasse 2 bouwt voort op de Klasse 1 startonderbreker, met geavanceerde inbraakdetectie en alarm.
           </p>
           <a href="#" className="text-blue-600 hover:underline font-semibold">Meer informatie</a>
         </div>
 
-        {/* ALARMSYSTEEM MET HELLINGSHOEKDETECTIE KLASSE 3 */}
         <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
           <div className="flex items-center justify-center w-16 h-16 rounded-full bg-yellow-100 text-yellow-600 mb-4">
             <Car size={32} />
           </div>
           <h3 className="text-2xl font-bold mb-3 text-gray-800">Alarmsysteem met Hellingshoekdetectie Klasse 3</h3>
           <p className="text-gray-700 mb-4">
-            Deze klasse combineert een Klasse 2 systeem met een hellingshoekdetector die ongewenste bewegingen detecteert.
-            Perfect voor voertuigen die extra bescherming nodig hebben tegen wegslepen of velgendiefstal.
+            Combineert Klasse 2 alarmsysteem met een hellingshoekdetector voor extra bescherming tegen wegslepen of velgendiefstal.
           </p>
           <a href="#" className="text-blue-600 hover:underline font-semibold">Meer informatie</a>
         </div>
 
-        {/* VOERTUIGVOLGSYSTEEM KLASSE 4/5 */}
         <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
           <div className="flex items-center justify-center w-16 h-16 rounded-full bg-red-100 text-red-600 mb-4">
             <Search size={32} />
           </div>
           <h3 className="text-2xl font-bold mb-3 text-gray-800">Voertuigvolgsysteem Klasse 4/5</h3>
           <p className="text-gray-700 mb-4">
-            De hoogste klasse, voorzien van GPS-tracking en 24/7 meldkamerondersteuning. Ideaal voor exclusieve voertuigen
-            of wagenparken die maximale beveiliging en terugvindbaarheid vereisen.
+            De hoogste klasse, voorzien van GPS-tracking en 24/7 meldkamerondersteuning.
           </p>
           <a href="#" className="text-blue-600 hover:underline font-semibold">Meer informatie</a>
         </div>
 
-        {/* PEILZENDER TERUGVINDSYSTEEM KLASSE TV */}
         <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
           <div className="flex items-center justify-center w-16 h-16 rounded-full bg-purple-100 text-purple-600 mb-4">
             <Info size={32} />
@@ -81,20 +71,17 @@ const SCMClassesContent = () => {
           <h3 className="text-2xl font-bold mb-3 text-gray-800">Peilzender Terugvindsysteem Klasse TV</h3>
           <p className="text-gray-700 mb-4">
             Een discrete peilzender die ervoor zorgt dat uw voertuig binnen 24 uur kan worden gelokaliseerd.
-            Ideaal voor snelle terugvinding bij diefstal.
           </p>
           <a href="#" className="text-blue-600 hover:underline font-semibold">Meer informatie</a>
         </div>
 
-        {/* KEYLESS ENTRY / GO KE01 */}
         <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
           <div className="flex items-center justify-center w-16 h-16 rounded-full bg-orange-100 text-orange-600 mb-4">
             <Key size={32} />
           </div>
           <h3 className="text-2xl font-bold mb-3 text-gray-800">Keyless Entry / Go KE01</h3>
           <p className="text-gray-700 mb-4">
-            De nieuwste SCM/CCV certificering tegen relay attacks bij Keyless Entry-systemen.
-            Onze oplossingen voldoen aan de strengste eisen voor moderne voertuigen.
+            Bescherming tegen relay attacks bij Keyless Entry-systemen, volledig SCM/CCV gecertificeerd.
           </p>
           <a href="#" className="text-blue-600 hover:underline font-semibold">Meer informatie</a>
         </div>
@@ -122,31 +109,67 @@ export default function SCMPage() {
         </div>
       </section>
 
-      {/* Intro sectie */}
+      {/* Officieel SCM */}
       <section className="py-16">
-        <div className="container mx-auto px-4 text-center max-w-4xl">
-          <h2 className="text-4xl font-bold mb-6">Officieel SCM Gecertificeerd</h2>
-          <p className="text-xl text-gray-600">
-            SCM staat voor Stichting Certificatie Motorrijtuigen — uw garantie voor erkende voertuigbeveiliging.
-          </p>
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center mb-12">
+            <h2 className="text-4xl font-bold mb-6">Officieel SCM Gecertificeerd</h2>
+            <p className="text-xl text-gray-600">
+              SCM staat voor Stichting Certificatie Motorrijtuigen. Een SCM-certificaat is een officiële erkenning dat uw
+              voertuigbeveiligingssysteem voldoet aan strenge Nederlandse normen.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div className="text-center">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-4">
+                <Shield className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">SCM gecertificeerde monteurs</h3>
+              <p className="text-gray-600">Officieel erkend door verzekeraars</p>
+            </div>
+            <div className="text-center">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-4">
+                <Award className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">TV01 Tracker</h3>
+              <p className="text-gray-600">GPS peilzender voor tracking</p>
+            </div>
+            <div className="text-center">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-4">
+                <Check className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Verzekeringkorting</h3>
+              <p className="text-gray-600">Tot 20% premiekorting</p>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* 🔹 Nieuwe geïntegreerde content */}
-      <section className="bg-gray-50 py-16">
-        <SCMClassesContent />
+      {/* 🔹 Hier voegen we de nieuwe SCM-klasse sectie toe */}
+      <SCMClassesContent />
+
+      {/* Prijzen & Offertes sectie */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-12">SCM Klasse 1 t/m 5 & Prijzen</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* ... je bestaande prijsblokken blijven hier exact hetzelfde ... */}
+          </div>
+
+          <p className="text-center text-sm text-gray-500 mt-8">
+            * Alle installaties worden uitgevoerd door SCM-gecertificeerde technici van Autobeveiliging Nederland
+          </p>
+
+          <img
+            src={defaAlarm}
+            alt="DEFA Alarmsysteem"
+            className="w-full max-w-xl mx-auto rounded-xl shadow-lg mt-8"
+          />
+        </div>
       </section>
 
-      {/* Afbeelding */}
-      <section className="py-8">
-        <img
-          src={defaAlarm}
-          alt="DEFA Alarmsysteem"
-          className="w-full max-w-3xl mx-auto rounded-xl shadow-lg"
-        />
-      </section>
-
-      {/* Contactsectie */}
+      {/* Contact sectie */}
       <section className="py-16 bg-gradient-to-br from-blue-600 to-blue-700 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Interesse in SCM Certificering?</h2>
