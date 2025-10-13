@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import defaAlarm from '@/assets/defa-alarm.jpg'
+import SCMClassesContent from '@/components/SCMClassesContent'
 
 export default function SCMPage() {
   return (
@@ -170,6 +171,15 @@ export default function SCMPage() {
             * Alle installaties worden uitgevoerd door SCM-gecertificeerde technici van Autobeveiliging Nederland
           </p>
         </div>
+        import SCMClassesContent from '@/components/SCMClassesContent'
+// ... andere imports en code ...
+
+      </section>
+
+      <SCMClassesContent />
+
+      <section className="py-16 bg-gradient-to-br from-blue-600 to-blue-700 text-white">
+
       
 <img src={defaAlarm} alt="DEFA Alarmsysteem" className="w-full max-w-xl mx-auto rounded-xl shadow-lg mt-8" />
       </section>
