@@ -172,7 +172,7 @@ export default function SCMPage() {
         </div>
         <div className="container mx-auto px-4 py-16">
       <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
-        SCM/CCV Alarmklassen Uitgelegd door Autobeveiliging Nederland
+        SCM/CCV Alarmklassen uitgelegd door Autobeveiliging Nederland
       </h2>
       <p className="text-lg text-center text-gray-600 mb-12 max-w-3xl mx-auto">
         Sinds 1 april 2019 is het CCV (Centrum voor Criminaliteitspreventie en Veiligheid) de nieuwe eigenaar van het
