@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import defaAlarm from '@/assets/defa-alarm.jpg'
-import SCMClassesContent from '@/components/SCMClassesContent'
 
 export default function SCMPage() {
   return (
