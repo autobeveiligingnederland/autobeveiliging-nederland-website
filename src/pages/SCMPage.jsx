@@ -150,11 +150,7 @@ export default function SCMPage() {
       <SCMClassesContent />
 
       {/* Prijzen & Offertes sectie */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">SCM Klasse 1 t/m 5 & Prijzen</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {<section className="py-16 bg-gray-50">
+     <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-12">SCM Klasse 1 t/m 5 & Prijzen</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -269,7 +265,8 @@ export default function SCMPage() {
         </div>
       
 <img src={defaAlarm} alt="DEFA Alarmsysteem" className="w-full max-w-xl mx-auto rounded-xl shadow-lg mt-8" />
-      </section>}
+      </section>
+  
           </div>
 
           <p className="text-center text-sm text-gray-500 mt-8">
