@@ -10,7 +10,7 @@ const SCMClassesContent = () => {
   return (
     <div className="container mx-auto px-4 py-16">
       <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
-        SCM/CCV Alarmklassen Uitgelegd door Autobeveiliging Nederland
+        SCM/CCV Alarmklassen uitgelegd door Autobeveiliging Nederland
       </h2>
       <p className="text-lg text-center text-gray-600 mb-12 max-w-3xl mx-auto">
         Sinds 1 april 2019 is het CCV (Centrum voor Criminaliteitspreventie en Veiligheid) de nieuwe eigenaar van het
@@ -154,7 +154,122 @@ export default function SCMPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-12">SCM Klasse 1 t/m 5 & Prijzen</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {/* ... je bestaande prijsblokken blijven hier exact hetzelfde ... */}
+            {<section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-12">SCM Klasse 1 t/m 5 & Prijzen</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="bg-white rounded-xl shadow-lg p-8">
+              <h3 className="text-2xl font-bold mb-2">SCM Klasse 1</h3>
+              <p className="text-gray-600 mb-6">Basis beveiliging voor standaard voertuigen</p>
+              <div className="mb-6">
+                <span className="text-4xl font-bold text-blue-600">€399,-</span>
+                <p className="text-sm text-gray-500 mt-1">Incl. installatie & certificaat</p>
+              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>Startonderbreker</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>Mogelijk met aparte autorisatie</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>LED waarschuwing</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>SCM certificaat</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>Installatie door Autobeveiliging Nederland</span>
+                </li>
+              </ul>
+              <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="w-full">Vraag offerte aan</Button>
+              </a>
+            </div>
+
+            <div className="bg-white rounded-xl shadow-lg p-8 border-2 border-blue-600">
+              <div className="absolute -mt-12 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
+                Populair
+              </div>
+              <h3 className="text-2xl font-bold mb-2">SCM Klasse 3</h3>
+              <p className="text-gray-600 mb-6">Alarmsysteem met Hellingshoekdetectie, interieurbewaking en meer.</p>
+              <div className="mb-6">
+                <span className="text-4xl font-bold text-blue-600">€899,-</span>
+                <p className="text-sm text-gray-500 mt-1">Incl. installatie & certificaat</p>
+              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>Akoestisch alarmsignaal</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>Startonderbreking</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>Hellingshoek detectie</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>Interieurbewaking</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>Installatie door Autobeveiliging Nederland</span>
+                </li>
+              </ul>
+              <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
+                <Button className="w-full bg-blue-600 hover:bg-blue-700">Vraag offerte aan</Button>
+              </a>
+            </div>
+
+            <div className="bg-white rounded-xl shadow-lg p-8">
+              <h3 className="text-2xl font-bold mb-2">SCM Klasse 4/5</h3>
+              <p className="text-gray-600 mb-6">Maximale beveiliging voor exclusieve voertuigen</p>
+              <div className="mb-6">
+                <span className="text-4xl font-bold text-blue-600">€899,-</span>
+                <p className="text-sm text-gray-500 mt-1">Incl. installatie & certificaat</p>
+              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>24/7 live volgen van het voertuig</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>24/7 support PAC meldkamer</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>GSM jamming detectie</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>Extra startblokkering via app</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-blue-600 mr-2 mt-0.5" />
+                  <span>Installatie door Autobeveiliging Nederland</span>
+                </li>
+              </ul>
+              <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="w-full">Vraag offerte aan</Button>
+              </a>
+            </div>
+          </div>
+          <p className="text-center text-sm text-gray-500 mt-8">
+            * Alle installaties worden uitgevoerd door SCM-gecertificeerde technici van Autobeveiliging Nederland
+          </p>
+        </div>
+      
+<img src={defaAlarm} alt="DEFA Alarmsysteem" className="w-full max-w-xl mx-auto rounded-xl shadow-lg mt-8" />
+      </section>}
           </div>
 
           <p className="text-center text-sm text-gray-500 mt-8">
