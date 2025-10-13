@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowLeft, Shield, Award, Check, Phone} from 'lucide-react'
+import { ArrowLeft, Shield, Award, Check, Phone, Lock, Car, Search, Key, Info } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
@@ -170,6 +170,86 @@ export default function SCMPage() {
             * Alle installaties worden uitgevoerd door SCM-gecertificeerde technici van Autobeveiliging Nederland
           </p>
         </div>
+        <div className="container mx-auto px-4 py-16">
+      <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
+        SCM/CCV Alarmklassen Uitgelegd door Autobeveiliging Nederland
+      </h2>
+      <p className="text-lg text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+        Sinds 1 april 2019 is het CCV (Centrum voor Criminaliteitspreventie en Veiligheid) de nieuwe eigenaar van het
+        voormalige VbV Keurmerk Voertuigbeveiliging. Het keurmerk VbV/Kiwa SCM is verder gegaan onder de naam Keurmerk
+        CCV Voertuigbeveiliging. Bij Autobeveiliging Nederland leggen we u graag de verschillende SCM/CCV alarmklassen
+        uit, zodat u de beste keuze kunt maken voor de beveiliging van uw voertuig.
+      </p>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+          <div className="flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 text-blue-600 mb-4">
+            <Lock size={32} />
+          </div>
+          <h3 className="text-2xl font-bold mb-3 text-gray-800">Startonderbreker Klasse 1</h3>
+          <p className="text-gray-700 mb-4">
+            SCM/CCV Klasse 1, voorheen bekend als de ‘Startonderbreker’, biedt een essentiële basisbeveiliging.
+          </p>
+          <a href="#" className="text-blue-600 hover:underline font-semibold">Meer informatie</a>
+        </div>
+
+        <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+          <div className="flex items-center justify-center w-16 h-16 rounded-full bg-green-100 text-green-600 mb-4">
+            <Shield size={32} />
+          </div>
+          <h3 className="text-2xl font-bold mb-3 text-gray-800">Alarmsysteem Klasse 2</h3>
+          <p className="text-gray-700 mb-4">
+            SCM/CCV Klasse 2 bouwt voort op de Klasse 1 startonderbreker, met geavanceerde inbraakdetectie en alarm.
+          </p>
+          <a href="#" className="text-blue-600 hover:underline font-semibold">Meer informatie</a>
+        </div>
+
+        <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+          <div className="flex items-center justify-center w-16 h-16 rounded-full bg-yellow-100 text-yellow-600 mb-4">
+            <Car size={32} />
+          </div>
+          <h3 className="text-2xl font-bold mb-3 text-gray-800">Alarmsysteem met Hellingshoekdetectie Klasse 3</h3>
+          <p className="text-gray-700 mb-4">
+            Combineert Klasse 2 alarmsysteem met een hellingshoekdetector voor extra bescherming tegen wegslepen of velgendiefstal.
+          </p>
+          <a href="#" className="text-blue-600 hover:underline font-semibold">Meer informatie</a>
+        </div>
+
+        <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+          <div className="flex items-center justify-center w-16 h-16 rounded-full bg-red-100 text-red-600 mb-4">
+            <Search size={32} />
+          </div>
+          <h3 className="text-2xl font-bold mb-3 text-gray-800">Voertuigvolgsysteem Klasse 4/5</h3>
+          <p className="text-gray-700 mb-4">
+            De hoogste klasse, voorzien van GPS-tracking en 24/7 meldkamerondersteuning.
+          </p>
+          <a href="#" className="text-blue-600 hover:underline font-semibold">Meer informatie</a>
+        </div>
+
+        <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+          <div className="flex items-center justify-center w-16 h-16 rounded-full bg-purple-100 text-purple-600 mb-4">
+            <Info size={32} />
+          </div>
+          <h3 className="text-2xl font-bold mb-3 text-gray-800">Peilzender Terugvindsysteem Klasse TV</h3>
+          <p className="text-gray-700 mb-4">
+            Een discrete peilzender die ervoor zorgt dat uw voertuig binnen 24 uur kan worden gelokaliseerd.
+          </p>
+          <a href="#" className="text-blue-600 hover:underline font-semibold">Meer informatie</a>
+        </div>
+
+        <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+          <div className="flex items-center justify-center w-16 h-16 rounded-full bg-orange-100 text-orange-600 mb-4">
+            <Key size={32} />
+          </div>
+          <h3 className="text-2xl font-bold mb-3 text-gray-800">Keyless Entry / Go KE01</h3>
+          <p className="text-gray-700 mb-4">
+            Bescherming tegen relay attacks bij Keyless Entry-systemen, volledig SCM/CCV gecertificeerd.
+          </p>
+          <a href="#" className="text-blue-600 hover:underline font-semibold">Meer informatie</a>
+        </div>
+      </div>
+    </div>
+  
       
 <img src={defaAlarm} alt="DEFA Alarmsysteem" className="w-full max-w-xl mx-auto rounded-xl shadow-lg mt-8" />
       </section>
