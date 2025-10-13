@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowLeft, Shield, Award, Check, Phone } from 'lucide-react'
+import { ArrowLeft, Shield, Award, Check, Phone, Lock, Car, Search, Info, Key } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
