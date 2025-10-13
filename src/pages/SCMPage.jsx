@@ -171,9 +171,6 @@ export default function SCMPage() {
             * Alle installaties worden uitgevoerd door SCM-gecertificeerde technici van Autobeveiliging Nederland
           </p>
         </div>
-        import SCMClassesContent from '@/components/SCMClassesContent'
-// ... andere imports en code ...
-
       </section>
 
       <SCMClassesContent />
