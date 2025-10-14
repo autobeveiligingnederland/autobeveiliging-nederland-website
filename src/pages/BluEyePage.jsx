@@ -90,7 +90,14 @@ export default function BluEyePage() {
               </p>
               <div className="bg-gray-100 rounded-xl overflow-hidden shadow-lg">
                 <div className="aspect-video bg-gradient-to-br from-orange-100 to-orange-200 flex items-center justify-center">
-                  {/* Placeholder voor YouTube/Vimeo embed */}
+                  <iframe 
+                    className="w-full h-full"
+                    src="https://www.youtube.com/shorts/wLZ5v9j_gP8"
+                    title="Blu Eye 2 Demonstratie"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
                   <div className="text-center p-8">
                     <Eye className="h-24 w-24 text-orange-600 mx-auto mb-4" />
                     <p className="text-xl font-semibold text-gray-700 mb-2">Video komt binnenkort</p>
