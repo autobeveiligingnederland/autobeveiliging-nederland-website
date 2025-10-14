@@ -260,7 +260,7 @@ export default function SCMPage() {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Neem contact op voor advies over de juiste SCM klasse voor uw voertuig
           </p>
-          <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
+          <a href="tel:0851305665" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
               <Phone className="mr-2 h-5 w-5" />
               Vraag advies aan
