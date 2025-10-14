@@ -37,7 +37,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-bold mb-1">Telefoon</h3>
                       <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-lg">
-                        06-50744574
+                        085-1305665
                       </a>
                       <p className="text-sm text-gray-600 mt-1">Ma-Vr: 08:00 - 18:00</p>
                       <p className="text-sm text-gray-600">Za: 09:00 - 15:00 (Op afspraak)</p>
@@ -209,7 +209,7 @@ export default function ContactPage() {
               <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
                   <Phone className="mr-2 h-5 w-5" />
-                  Bel Nu: 06-50744574
+                  Bel Nu: 085-1305665
                 </Button>
               </a>
             </div>
