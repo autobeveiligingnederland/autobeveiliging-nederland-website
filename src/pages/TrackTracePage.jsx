@@ -264,10 +264,10 @@ export default function TrackTracePage() {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Neem contact op voor een vrijblijvende offerte op maat
           </p>
-          <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
+          <a href="tel:0851305665" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100">
               <Phone className="mr-2 h-5 w-5" />
-              Vraag Offerte Aan
+              Vraag offerte aan
             </Button>
           </a>
         </div>
