@@ -421,7 +421,7 @@ export default function HomePage() {
             Neem vandaag nog contact op voor een vrijblijvende offerte en advies op maat
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
+            <a href="tel:0851305665" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
                 <Phone className="mr-2 h-5 w-5" />
                 Bel Direct
