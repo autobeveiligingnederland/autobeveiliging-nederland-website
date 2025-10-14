@@ -31,7 +31,7 @@ export default function HomePage() {
               Wij komen naar u toe voor SCM-gecertificeerde installaties in heel Nederland.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
+              <a href="tel:0851305665" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8">
                   <Phone className="mr-2 h-5 w-5" />
                   Direct contact
