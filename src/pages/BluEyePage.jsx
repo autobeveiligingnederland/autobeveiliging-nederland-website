@@ -91,15 +91,14 @@ export default function BluEyePage() {
               <div className="bg-gray-100 rounded-xl overflow-hidden shadow-lg">
                 <div className="aspect-video bg-gradient-to-br from-orange-100 to-orange-200 flex items-center justify-center">
                   <div className="text-center p-8">
-                    <Eye className="h-24 w-24 text-orange-600 mx-auto mb-4" />
-                    <p className="text-xl font-semibold text-gray-700 mb-2">Video komt binnenkort</p>
-                    <p className="text-gray-600">
-                      Hier komt een demonstratievideo van de Blu Eye 2 installatie in de binnenspiegel
-                    </p>
-                    <div className="mt-6 text-sm text-gray-500">
-                      <p>Om uw eigen video toe te voegen, vervang deze sectie met:</p>
-                      <code className="block mt-2 bg-white p-2 rounded text-xs">
-                      https://www.youtube.com/watch?v=gPuP2dH9aDI&t=375s                      
+                    <iframe 
+                    className="w-full h-full"
+                    src="https://www.youtube.com/watch?v=gPuP2dH9aDI&t=375s"
+                    title="Blu Eye 2 Demonstratie"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>                   
                       </code>
                     </div>
                   </div>
