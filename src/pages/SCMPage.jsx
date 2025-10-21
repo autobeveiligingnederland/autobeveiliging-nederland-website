@@ -65,7 +65,7 @@ export default function SCMPage() {
               <h3 className="text-2xl font-bold mb-2">SCM Klasse 1</h3>
               <p className="text-gray-600 mb-6">Basis beveiliging voor standaard voertuigen</p>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-blue-600">€399,-</span>
+                <span className="text-4xl font-bold text-blue-600">v.a.€399,-</span>
                 <p className="text-sm text-gray-500 mt-1">Incl. installatie & certificaat</p>
               </div>
               <ul className="space-y-3 mb-8">
@@ -90,7 +90,7 @@ export default function SCMPage() {
                   <span>Installatie door Autobeveiliging Nederland</span>
                 </li>
               </ul>
-              <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/31851305665" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="w-full">Vraag offerte aan</Button>
               </a>
             </div>
@@ -102,7 +102,7 @@ export default function SCMPage() {
               <h3 className="text-2xl font-bold mb-2">SCM Klasse 3</h3>
               <p className="text-gray-600 mb-6">Alarmsysteem met Hellingshoekdetectie, interieurbewaking en meer.</p>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-blue-600">€899,-</span>
+                <span className="text-4xl font-bold text-blue-600">v.a.€699,-</span>
                 <p className="text-sm text-gray-500 mt-1">Incl. installatie & certificaat</p>
               </div>
               <ul className="space-y-3 mb-8">
@@ -127,7 +127,7 @@ export default function SCMPage() {
                   <span>Installatie door Autobeveiliging Nederland</span>
                 </li>
               </ul>
-              <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/31851305665" target="_blank" rel="noopener noreferrer">
                 <Button className="w-full bg-blue-600 hover:bg-blue-700">Vraag offerte aan</Button>
               </a>
             </div>
@@ -136,7 +136,7 @@ export default function SCMPage() {
               <h3 className="text-2xl font-bold mb-2">SCM Klasse 4/5</h3>
               <p className="text-gray-600 mb-6">Maximale beveiliging voor exclusieve voertuigen</p>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-blue-600">€899,-</span>
+                <span className="text-4xl font-bold text-blue-600">v.a.€799,-</span>
                 <p className="text-sm text-gray-500 mt-1">Incl. installatie & certificaat</p>
               </div>
               <ul className="space-y-3 mb-8">
@@ -161,7 +161,7 @@ export default function SCMPage() {
                   <span>Installatie door Autobeveiliging Nederland</span>
                 </li>
               </ul>
-              <a href="https://wa.me/31650744574" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/31851305665" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="w-full">Vraag offerte aan</Button>
               </a>
             </div>
