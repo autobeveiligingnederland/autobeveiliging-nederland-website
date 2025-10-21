@@ -65,7 +65,7 @@ export default function Header() {
 
           {/* Phone Button */}
           <div className="hidden lg:flex items-center space-x-4">
-            <a href="tel:0851305665" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/31851305665" target="_blank" rel="noopener noreferrer">
               <Button className="bg-blue-600 hover:bg-blue-700">
                 <Phone className="mr-2 h-4 w-4" />
                 085-1305665
