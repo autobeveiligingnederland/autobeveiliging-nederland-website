@@ -77,9 +77,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-400">Uden, Nederland
-                KVK: 74554816
-                BTW NR: NL001103841B50</span>
+                <span className="text-gray-400">Uden, Nederland</span>
               </li>
             </ul>
           </div>
